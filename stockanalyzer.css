@@ -1,0 +1,141 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100%;
+    background: url('background.jpg');
+}
+
+#box{
+    background:black;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    z-index: -1;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+h1{
+    color: greenyellow;
+}
+#input1{
+    margin: 20px;
+    padding : 0.5rem,1rem;
+    height: 50px; 
+    outline: none;
+    width: 400px;
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 30px ;
+    border-bottom: black;
+    text-align: center;
+    background:whitesmoke;
+    color:black;
+  
+}
+#input2{
+
+    margin: 20px;
+    padding : 0.5rem,1rem;
+    height: 50px; 
+    outline: none;
+    width: 400px;
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 30px ;
+    border-bottom: black;
+    text-align: center;
+    background:whitesmoke;
+    color:black;
+
+}
+#input3{
+    margin: 20px;
+    padding : 0.5rem,1rem;
+    height: 50px; 
+    outline: none;
+    width: 400px;
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 30px ;
+    border-bottom: black;
+    text-align: center;
+    background:whitesmoke;
+    color:black;
+}
+#btn{
+    height: 70px;
+    width: 70px;
+    font-size: 1.2rem;
+    cursor:pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   background-color: goldenrod;
+}
+.title{
+    color:blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+.display{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.img{
+    height: 280px;
+    width:500px;
+}
+@media (max-width:480px){
+
+    #box{
+        background:black;
+        display :flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: 0.9;
+        z-index: -1;
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+    #input1 #input2{
+        margin: 20px;
+        padding : 0.5rem,1rem;
+        height: 30px; 
+        outline: none;
+        width: 200px;
+        border: none;
+        font-size: 1rem;
+        margin: 1rem;
+        border-radius: 30px ;
+        border-bottom: black;
+        text-align: center;
+        background:whitesmoke;
+        color:black;
+
+    }
+
+        .display{
+            font-size: 20px;
+        }
+
+
+        .img{
+            height: 100px;
+            width: 150px;
+            align-items: center;
+            text-align: center;
+        }
+
+}
