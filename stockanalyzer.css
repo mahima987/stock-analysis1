@@ -95,7 +95,7 @@ h1{
     height: 280px;
     width:500px;
 }
-@media (max-width:480px){
+/* @media (max-width:480px){
 
     #box{
         background:black;
@@ -138,4 +138,4 @@ h1{
             text-align: center;
         }
 
-}
+} */
