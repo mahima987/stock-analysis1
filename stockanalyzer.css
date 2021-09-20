@@ -17,8 +17,7 @@ body {
     align-items: center;
     opacity: 0.9;
     z-index: -1;
-    margin-right: 400px;
-    margin-left: 400px;
+    
 }
 h1{
     color: greenyellow;
@@ -106,8 +105,7 @@ h1{
         text-align: center;
         opacity: 0.9;
         z-index: -1;
-        margin-right: 400px;
-        margin-left: 400px;
+        
     }
     #input1 #input2{
         margin: 20px;
